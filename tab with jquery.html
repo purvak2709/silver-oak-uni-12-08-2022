@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet" type="text/css" />
+      <script src = "https://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript"></script>
+		
+      <script type="text/javascript">
+          $(document).ready(function () {
+              $("#MyTabDiv").tabs();
+
+          });
+      </script>
+		
+      <style type="text/css">
+         #MyTabDiv{font-size: 14px;}
+         #MyTabDiv div,#MyTabDiv p{background:#000000;}
+         .ui-widget-header {
+            background:#caec33;
+            border: 1px solid #71d45d;
+            color: #faac47;
+            font-weight: bold;
+         }
+      </style>
+   </head>
+
+</head>
+<body>
+    <div id="MyTabDiv">
+        <ul>
+            <li> <a href="#tab1">STAR</a></li>
+            <li> <a href="#tab2">SUN</a></li>
+            <li> <a href="#tab3">MOON</a></li>
+            <li> <a href="#tab4">HEART</a></li>
+            <li> <a href="#tab5">EARTH</a></li>
+            <li> <a href="#tab6">BUTTERFLY</a></li>
+        </ul>
+        <div id="tab1">
+            <p>
+                ⭐
+            </p>
+        </div>
+        <div id="tab2">
+            <p>
+                ☀️ 
+            </p>
+        </div>
+        <div id="tab3">
+            <p>
+                🌙
+            </p>
+        </div>
+        <div id="tab4">
+            <p>
+                💛
+            </p>
+        </div>
+        <div id="tab5">
+            <p>
+                🌎 
+            </p>
+        </div>
+        <div id="tab6">
+            <p>
+                🦋 
+            </p>
+        </div>
+    </div>
+</body>
+</html>
